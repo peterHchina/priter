@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PriterPoPViewController">
+            <connections>
+                <outlet property="appIconView" destination="5DT-w1-W8p" id="2u3-pI-xdf"/>
+                <outlet property="autonLunchButton" destination="die-HP-DEi" id="Ryl-Ex-duH"/>
+                <outlet property="bubbleSound" destination="gx8-OC-VG2" id="IiE-eM-Hyk"/>
+                <outlet property="closeButton" destination="maB-nG-205" id="dLI-SF-R95"/>
+                <outlet property="defaultSound" destination="0wD-7U-ovl" id="j0M-ck-cAg"/>
+                <outlet property="drumBeatSound" destination="Hp1-DI-kZ1" id="uzb-VD-6Cm"/>
+                <outlet property="g80_3000Sound" destination="IEO-3M-YNC" id="S4a-GO-Dh0"/>
+                <outlet property="g80_3494Sound" destination="NdJ-C7-zYm" id="RQ4-3G-lVN"/>
+                <outlet property="mechanicalSound" destination="fZG-yi-QQE" id="bxz-pM-7bm"/>
+                <outlet property="showInDockButton" destination="yxl-Wb-7kz" id="lKo-md-G3v"/>
+                <outlet property="soundSelectButton" destination="WRw-er-QG5" id="YkX-e3-ofE"/>
+                <outlet property="swordSound" destination="Gug-Vr-tif" id="IHQ-It-Ye4"/>
+                <outlet property="tempForbiddenButton" destination="yF9-DD-wmg" id="8JU-ka-chQ"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+                <outlet property="volumeSlider" destination="RxW-Z5-AwR" id="POh-KA-4eR"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="412"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1M5-Do-2Bh">
+                    <rect key="frame" x="19" y="247" width="166" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Priter 2.5" id="rT9-zn-fLB">
+                        <font key="font" metaFont="system" size="16"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gcw-mx-K9b">
+                    <rect key="frame" x="13" y="227" width="177" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="让每次敲击都成为愉悦" id="lBb-6d-uJQ">
+                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box fixedFrame="YES" title="设置" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="7dh-Oa-MYl">
+                    <rect key="frame" x="8" y="24" width="185" height="195"/>
+                    <view key="contentView" id="Re8-VY-DWh">
+                        <rect key="frame" x="1" y="1" width="183" height="182"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f6e-4i-0KL">
+                                <rect key="frame" x="10" y="158" width="144" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="在Dock栏中显示图标" id="K4Z-Ty-8tH">
+                                    <font key="font" metaFont="systemLight" size="13"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxl-Wb-7kz">
+                                <rect key="frame" x="158" y="157" width="22" height="18"/>
+                                <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" alignment="center" refusesFirstResponder="YES" inset="2" id="UyK-RI-Fko">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="setDockIcon:" target="-2" id="45X-zk-xML"/>
+                                </connections>
+                            </button>
+                            <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="LWk-dt-Q3G">
+                                <rect key="frame" x="6" y="147" width="172" height="5"/>
+                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <font key="titleFont" metaFont="system"/>
+                            </box>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W9x-QY-ZLf">
+                                <rect key="frame" x="10" y="124" width="144" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="设置为开机启动项" id="c9N-kO-lYQ">
+                                    <font key="font" metaFont="systemLight" size="13"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="die-HP-DEi">
+                                <rect key="frame" x="158" y="123" width="22" height="18"/>
+                                <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" alignment="center" refusesFirstResponder="YES" state="on" inset="2" id="NXp-W4-UGA">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="setLaunch:" target="-2" id="eFk-lu-zWQ"/>
+                                </connections>
+                            </button>
+                            <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="8b1-Fi-HQ7">
+                                <rect key="frame" x="5" y="112" width="172" height="5"/>
+                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <font key="titleFont" metaFont="system"/>
+                            </box>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ni-HC-cV8">
+                                <rect key="frame" x="10" y="90" width="144" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="临时禁用" id="KFv-4h-4g3">
+                                    <font key="font" metaFont="systemLight" size="13"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yF9-DD-wmg">
+                                <rect key="frame" x="158" y="89" width="22" height="18"/>
+                                <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" alignment="center" refusesFirstResponder="YES" inset="2" id="89P-K9-Ed1">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="tempForbidden:" target="-2" id="zCf-Ic-TvH"/>
+                                </connections>
+                            </button>
+                            <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="YKz-tT-CYH">
+                                <rect key="frame" x="5" y="78" width="172" height="4"/>
+                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <font key="titleFont" metaFont="system"/>
+                            </box>
+                            <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="dGV-q8-KPJ">
+                                <rect key="frame" x="5" y="45" width="172" height="5"/>
+                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <font key="titleFont" metaFont="system"/>
+                            </box>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zlc-Jd-Plf">
+                                <rect key="frame" x="10" y="27" width="169" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="音量设置" id="Tkh-K6-7Au">
+                                    <font key="font" metaFont="systemLight" size="13"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RxW-Z5-AwR">
+                                <rect key="frame" x="11" y="8" width="166" height="21"/>
+                                <sliderCell key="cell" continuous="YES" refusesFirstResponder="YES" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="EcD-bC-say"/>
+                                <connections>
+                                    <action selector="adjustTheVolum:" target="-2" id="xxn-wM-ews"/>
+                                </connections>
+                            </slider>
+                            <popUpButton fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WRw-er-QG5">
+                                <rect key="frame" x="4" y="55" width="169" height="22"/>
+                                <popUpButtonCell key="cell" type="square" title="Item" bezelStyle="shadowlessSquare" alignment="left" lineBreakMode="truncatingTail" continuous="YES" refusesFirstResponder="YES" inset="2" pullsDown="YES" selectedItem="Hp1-DI-kZ1" id="JPF-7Q-SNX">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system" size="15"/>
+                                    <menu key="menu" id="Hbh-ba-0H5">
+                                        <items>
+                                            <menuItem title="Item" hidden="YES" id="0Cf-As-1LA">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="默认" id="0wD-7U-ovl">
+                                                <connections>
+                                                    <action selector="selectDefaultSound:" target="-2" id="qmc-ju-I9N"/>
+                                                </connections>
+                                            </menuItem>
+                                            <menuItem isSeparatorItem="YES" id="NYE-zm-Yda"/>
+                                            <menuItem title="气泡" id="gx8-OC-VG2">
+                                                <connections>
+                                                    <action selector="selectBubbleSound:" target="-2" id="4h1-XR-tgC"/>
+                                                </connections>
+                                            </menuItem>
+                                            <menuItem isSeparatorItem="YES" id="OK3-Dh-F4A"/>
+                                            <menuItem title="G80-3000－青轴" id="IEO-3M-YNC">
+                                                <connections>
+                                                    <action selector="selectG803Sound:" target="-2" id="Reo-By-YbT"/>
+                                                </connections>
+                                            </menuItem>
+                                            <menuItem isSeparatorItem="YES" id="YiV-JB-j5F"/>
+                                            <menuItem title="G80-3494－红轴" id="NdJ-C7-zYm">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                <connections>
+                                                    <action selector="selectG804Sound:" target="-2" id="yta-Iw-F0t"/>
+                                                </connections>
+                                            </menuItem>
+                                            <menuItem isSeparatorItem="YES" id="i2j-Dx-inm"/>
+                                            <menuItem title="FKB8540－黑轴" id="fZG-yi-QQE">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                <connections>
+                                                    <action selector="selectMechanicalSound:" target="-2" id="2VJ-n1-IWt"/>
+                                                </connections>
+                                            </menuItem>
+                                            <menuItem isSeparatorItem="YES" id="2oW-gP-WVg"/>
+                                            <menuItem title="爆裂鼓手" id="Hp1-DI-kZ1">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                <connections>
+                                                    <action selector="selectDrumbeatSound:" target="-2" id="hsL-xF-apO"/>
+                                                </connections>
+                                            </menuItem>
+                                            <menuItem isSeparatorItem="YES" id="AbM-Pt-ReW"/>
+                                            <menuItem title="剑气" id="Gug-Vr-tif">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                <connections>
+                                                    <action selector="selectSwordSound:" target="-2" id="g97-hB-oE4"/>
+                                                </connections>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                        </subviews>
+                    </view>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="systemLight" size="9"/>
+                </box>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5DT-w1-W8p">
+                    <rect key="frame" x="35" y="272" width="131" height="131"/>
+                </customView>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="maB-nG-205">
+                    <rect key="frame" x="171" y="5" width="17" height="17"/>
+                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="shutdown_light" imagePosition="only" alignment="center" alternateImage="shutdown" continuous="YES" refusesFirstResponder="YES" state="on" imageScaling="proportionallyDown" sound="Pop" inset="2" id="VaZ-Sr-aaX">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="quit:" target="-2" id="RUw-E8-FQa"/>
+                    </connections>
+                </button>
+            </subviews>
+            <point key="canvasLocation" x="274" y="234"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="shutdown" width="104" height="104"/>
+        <image name="shutdown_light" width="104" height="104"/>
+        <sound name="Pop"/>
+    </resources>
+</document>

@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0456ADA1C284D3F00C9997C /* PriterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456AD91C284D3F00C9997C /* PriterAppDelegate.m */; };
+		D0456ADD1C284D3F00C9997C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456ADC1C284D3F00C9997C /* main.m */; };
+		D0456AE01C284D3F00C9997C /* PriterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456ADF1C284D3F00C9997C /* PriterViewController.m */; };
+		D0456AE21C284D3F00C9997C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0456AE11C284D3F00C9997C /* Assets.xcassets */; };
+		D0456AE51C284D3F00C9997C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0456AE31C284D3F00C9997C /* Main.storyboard */; };
+		D0456B101C285F1700C9997C /* PriterRHStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456B0F1C285F1700C9997C /* PriterRHStatusItemView.m */; };
+		D0456B131C28607C00C9997C /* PriterPopOverViewDelagate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456B121C28607C00C9997C /* PriterPopOverViewDelagate.m */; };
+		D0456B1C1C28627F00C9997C /* PriterPoPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456B1A1C28627F00C9997C /* PriterPoPViewController.m */; };
+		D0456B331C29AD1900C9997C /* priter_dark_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0456B201C29AD1900C9997C /* priter_dark_icon.png */; };
+		D0456B341C29AD1900C9997C /* priter_light_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0456B211C29AD1900C9997C /* priter_light_icon.png */; };
+		D0456B351C29AD1900C9997C /* backspace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B231C29AD1900C9997C /* backspace.mp3 */; };
+		D0456B361C29AD1900C9997C /* key-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B241C29AD1900C9997C /* key-01.mp3 */; };
+		D0456B371C29AD1900C9997C /* key-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B251C29AD1900C9997C /* key-02.mp3 */; };
+		D0456B381C29AD1900C9997C /* key-03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B261C29AD1900C9997C /* key-03.mp3 */; };
+		D0456B391C29AD1900C9997C /* key-04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B271C29AD1900C9997C /* key-04.mp3 */; };
+		D0456B3A1C29AD1900C9997C /* key-new-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B281C29AD1900C9997C /* key-new-01.mp3 */; };
+		D0456B3B1C29AD1900C9997C /* key-new-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B291C29AD1900C9997C /* key-new-02.mp3 */; };
+		D0456B3C1C29AD1900C9997C /* key-new-03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B2A1C29AD1900C9997C /* key-new-03.mp3 */; };
+		D0456B3D1C29AD1900C9997C /* key-new-04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B2B1C29AD1900C9997C /* key-new-04.mp3 */; };
+		D0456B3E1C29AD1900C9997C /* key-new-05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B2C1C29AD1900C9997C /* key-new-05.mp3 */; };
+		D0456B3F1C29AD1900C9997C /* return-new.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B2D1C29AD1900C9997C /* return-new.mp3 */; };
+		D0456B401C29AD1900C9997C /* return.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B2E1C29AD1900C9997C /* return.mp3 */; };
+		D0456B411C29AD1900C9997C /* scrollDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B2F1C29AD1900C9997C /* scrollDown.mp3 */; };
+		D0456B421C29AD1900C9997C /* scrollUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B301C29AD1900C9997C /* scrollUp.mp3 */; };
+		D0456B431C29AD1900C9997C /* space-new.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B311C29AD1900C9997C /* space-new.mp3 */; };
+		D0456B441C29AD1900C9997C /* space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0456B321C29AD1900C9997C /* space.mp3 */; };
+		D0456B461C2AF35F00C9997C /* shutdown.png in Resources */ = {isa = PBXBuildFile; fileRef = D0456B451C2AF35F00C9997C /* shutdown.png */; };
+		D0456B471C2AF9A900C9997C /* PriterPoPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0456B491C2AF9A900C9997C /* PriterPoPViewController.xib */; };
+		D0456B531C2C1E0C00C9997C /* PriterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456B521C2C1E0C00C9997C /* PriterUtils.m */; };
+		D0456B571C2C53C200C9997C /* PriterUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456B561C2C53C200C9997C /* PriterUserDefaults.m */; };
+		D0456B591C2D642E00C9997C /* shutdown_light.png in Resources */ = {isa = PBXBuildFile; fileRef = D0456B581C2D642E00C9997C /* shutdown_light.png */; };
+		D0456B5D1C2ED96600C9997C /* PriterLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0456B5C1C2ED96600C9997C /* PriterLogoView.m */; };
+		D0456B5F1C2EDBDE00C9997C /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0456B5E1C2EDBDE00C9997C /* app_icon.png */; };
+		D0456B611C2EE06300C9997C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0456B601C2EE06300C9997C /* QuartzCore.framework */; };
+		D0552D1D1C36754E0056B4A4 /* bubble_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552CF71C36754E0056B4A4 /* bubble_1.wav */; };
+		D0552D1E1C36754E0056B4A4 /* bubble_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552CF81C36754E0056B4A4 /* bubble_2.wav */; };
+		D0552D1F1C36754E0056B4A4 /* bubble_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552CF91C36754E0056B4A4 /* bubble_3.wav */; };
+		D0552D201C36754E0056B4A4 /* bubble_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552CFA1C36754E0056B4A4 /* bubble_4.wav */; };
+		D0552D251C36754F0056B4A4 /* bubble_enter.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552CFF1C36754E0056B4A4 /* bubble_enter.wav */; };
+		D0552D261C36754F0056B4A4 /* G80-3000.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D011C36754E0056B4A4 /* G80-3000.wav */; };
+		D0552D271C36754F0056B4A4 /* G80-3000_fast1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D021C36754E0056B4A4 /* G80-3000_fast1.wav */; };
+		D0552D281C36754F0056B4A4 /* G80-3000_fast2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D031C36754E0056B4A4 /* G80-3000_fast2.wav */; };
+		D0552D291C36754F0056B4A4 /* G80-3000_slow1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D041C36754E0056B4A4 /* G80-3000_slow1.wav */; };
+		D0552D2A1C36754F0056B4A4 /* G80-3000_slow2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D051C36754E0056B4A4 /* G80-3000_slow2.wav */; };
+		D0552D2B1C36754F0056B4A4 /* G80-3494.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D071C36754E0056B4A4 /* G80-3494.wav */; };
+		D0552D2C1C36754F0056B4A4 /* G80-3494_backspace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D081C36754E0056B4A4 /* G80-3494_backspace.wav */; };
+		D0552D2D1C36754F0056B4A4 /* G80-3494_enter.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D091C36754E0056B4A4 /* G80-3494_enter.wav */; };
+		D0552D2E1C36754F0056B4A4 /* G80-3494_fast1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D0A1C36754E0056B4A4 /* G80-3494_fast1.wav */; };
+		D0552D2F1C36754F0056B4A4 /* G80-3494_slow1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D0B1C36754E0056B4A4 /* G80-3494_slow1.wav */; };
+		D0552D301C36754F0056B4A4 /* G80-3494_space.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D0C1C36754E0056B4A4 /* G80-3494_space.wav */; };
+		D0552D361C36754F0056B4A4 /* sword_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D141C36754E0056B4A4 /* sword_1.wav */; };
+		D0552D371C36754F0056B4A4 /* sword_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D151C36754E0056B4A4 /* sword_2.wav */; };
+		D0552D381C36754F0056B4A4 /* sword_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D161C36754E0056B4A4 /* sword_3.wav */; };
+		D0552D391C36754F0056B4A4 /* sword_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D171C36754E0056B4A4 /* sword_4.wav */; };
+		D0552D3A1C36754F0056B4A4 /* sword_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D181C36754E0056B4A4 /* sword_5.wav */; };
+		D0552D3B1C36754F0056B4A4 /* sword_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D191C36754E0056B4A4 /* sword_6.wav */; };
+		D0552D3C1C36754F0056B4A4 /* sword_back.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D1A1C36754E0056B4A4 /* sword_back.wav */; };
+		D0552D3D1C36754F0056B4A4 /* sword_enter.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D1B1C36754E0056B4A4 /* sword_enter.wav */; };
+		D0552D3E1C36754F0056B4A4 /* sword_space.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D1C1C36754E0056B4A4 /* sword_space.wav */; };
+		D0552D431C367F760056B4A4 /* bubble_backspace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D3F1C367F760056B4A4 /* bubble_backspace.wav */; };
+		D0552D441C367F760056B4A4 /* bubble_scroll_down.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D401C367F760056B4A4 /* bubble_scroll_down.wav */; };
+		D0552D451C367F760056B4A4 /* bubble_scroll_up.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D411C367F760056B4A4 /* bubble_scroll_up.wav */; };
+		D0552D461C367F760056B4A4 /* bubble_space.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D421C367F760056B4A4 /* bubble_space.wav */; };
+		D0552D4C1C367F860056B4A4 /* mechanical_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D471C367F860056B4A4 /* mechanical_1.wav */; };
+		D0552D4D1C367F860056B4A4 /* mechanical_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D481C367F860056B4A4 /* mechanical_2.wav */; };
+		D0552D4E1C367F860056B4A4 /* mechanical_backspace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D491C367F860056B4A4 /* mechanical_backspace.wav */; };
+		D0552D4F1C367F860056B4A4 /* mechanical_enter.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D4A1C367F860056B4A4 /* mechanical_enter.wav */; };
+		D0552D501C367F860056B4A4 /* mechanical_space.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0552D4B1C367F860056B4A4 /* mechanical_space.wav */; };
+		D0693CF31C37D46100F6788C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0693CF51C37D46100F6788C /* Localizable.strings */; };
+		D0FEF4451C62517600CDE1C6 /* drum-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0FEF43E1C62517600CDE1C6 /* drum-01.wav */; };
+		D0FEF4461C62517600CDE1C6 /* drum-02.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0FEF43F1C62517600CDE1C6 /* drum-02.wav */; };
+		D0FEF4471C62517600CDE1C6 /* drum-03.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0FEF4401C62517600CDE1C6 /* drum-03.wav */; };
+		D0FEF4481C62517600CDE1C6 /* drum-04.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0FEF4411C62517600CDE1C6 /* drum-04.wav */; };
+		D0FEF4491C62517600CDE1C6 /* drum-backspace.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0FEF4421C62517600CDE1C6 /* drum-backspace.wav */; };
+		D0FEF44A1C62517600CDE1C6 /* drum-enter.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0FEF4431C62517600CDE1C6 /* drum-enter.wav */; };
+		D0FEF44B1C62517600CDE1C6 /* drum-space.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0FEF4441C62517600CDE1C6 /* drum-space.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0456AD51C284D3F00C9997C /* Priter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Priter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0456AD81C284D3F00C9997C /* PriterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriterAppDelegate.h; sourceTree = "<group>"; };
+		D0456AD91C284D3F00C9997C /* PriterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriterAppDelegate.m; sourceTree = "<group>"; };
+		D0456ADC1C284D3F00C9997C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0456ADE1C284D3F00C9997C /* PriterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriterViewController.h; sourceTree = "<group>"; };
+		D0456ADF1C284D3F00C9997C /* PriterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriterViewController.m; sourceTree = "<group>"; };
+		D0456AE11C284D3F00C9997C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0456AE41C284D3F00C9997C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0456AE61C284D3F00C9997C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0456B0E1C285F1700C9997C /* PriterRHStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriterRHStatusItemView.h; sourceTree = "<group>"; };
+		D0456B0F1C285F1700C9997C /* PriterRHStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriterRHStatusItemView.m; sourceTree = "<group>"; };
+		D0456B111C28607C00C9997C /* PriterPopOverViewDelagate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriterPopOverViewDelagate.h; sourceTree = "<group>"; };
+		D0456B121C28607C00C9997C /* PriterPopOverViewDelagate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriterPopOverViewDelagate.m; sourceTree = "<group>"; };
+		D0456B191C28627F00C9997C /* PriterPoPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriterPoPViewController.h; sourceTree = "<group>"; };
+		D0456B1A1C28627F00C9997C /* PriterPoPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriterPoPViewController.m; sourceTree = "<group>"; };
+		D0456B201C29AD1900C9997C /* priter_dark_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priter_dark_icon.png; sourceTree = "<group>"; };
+		D0456B211C29AD1900C9997C /* priter_light_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priter_light_icon.png; sourceTree = "<group>"; };
+		D0456B231C29AD1900C9997C /* backspace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backspace.mp3; sourceTree = "<group>"; };
+		D0456B241C29AD1900C9997C /* key-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-01.mp3"; sourceTree = "<group>"; };
+		D0456B251C29AD1900C9997C /* key-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-02.mp3"; sourceTree = "<group>"; };
+		D0456B261C29AD1900C9997C /* key-03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-03.mp3"; sourceTree = "<group>"; };
+		D0456B271C29AD1900C9997C /* key-04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-04.mp3"; sourceTree = "<group>"; };
+		D0456B281C29AD1900C9997C /* key-new-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-new-01.mp3"; sourceTree = "<group>"; };
+		D0456B291C29AD1900C9997C /* key-new-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-new-02.mp3"; sourceTree = "<group>"; };
+		D0456B2A1C29AD1900C9997C /* key-new-03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-new-03.mp3"; sourceTree = "<group>"; };
+		D0456B2B1C29AD1900C9997C /* key-new-04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-new-04.mp3"; sourceTree = "<group>"; };
+		D0456B2C1C29AD1900C9997C /* key-new-05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "key-new-05.mp3"; sourceTree = "<group>"; };
+		D0456B2D1C29AD1900C9997C /* return-new.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "return-new.mp3"; sourceTree = "<group>"; };
+		D0456B2E1C29AD1900C9997C /* return.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = return.mp3; sourceTree = "<group>"; };
+		D0456B2F1C29AD1900C9997C /* scrollDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scrollDown.mp3; sourceTree = "<group>"; };
+		D0456B301C29AD1900C9997C /* scrollUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scrollUp.mp3; sourceTree = "<group>"; };
+		D0456B311C29AD1900C9997C /* space-new.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "space-new.mp3"; sourceTree = "<group>"; };
+		D0456B321C29AD1900C9997C /* space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = space.mp3; sourceTree = "<group>"; };
+		D0456B451C2AF35F00C9997C /* shutdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutdown.png; sourceTree = "<group>"; };
+		D0456B4E1C2AFB4300C9997C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D0456B4F1C2AFB6800C9997C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PriterPoPViewController.xib"; sourceTree = "<group>"; };
+		D0456B511C2C1E0C00C9997C /* PriterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriterUtils.h; sourceTree = "<group>"; };
+		D0456B521C2C1E0C00C9997C /* PriterUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriterUtils.m; sourceTree = "<group>"; };
+		D0456B551C2C53C200C9997C /* PriterUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriterUserDefaults.h; sourceTree = "<group>"; };
+		D0456B561C2C53C200C9997C /* PriterUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriterUserDefaults.m; sourceTree = "<group>"; };
+		D0456B581C2D642E00C9997C /* shutdown_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutdown_light.png; sourceTree = "<group>"; };
+		D0456B5B1C2ED96600C9997C /* PriterLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriterLogoView.h; sourceTree = "<group>"; };
+		D0456B5C1C2ED96600C9997C /* PriterLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriterLogoView.m; sourceTree = "<group>"; };
+		D0456B5E1C2EDBDE00C9997C /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		D0456B601C2EE06300C9997C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D0552CF71C36754E0056B4A4 /* bubble_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_1.wav; sourceTree = "<group>"; };
+		D0552CF81C36754E0056B4A4 /* bubble_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_2.wav; sourceTree = "<group>"; };
+		D0552CF91C36754E0056B4A4 /* bubble_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_3.wav; sourceTree = "<group>"; };
+		D0552CFA1C36754E0056B4A4 /* bubble_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_4.wav; sourceTree = "<group>"; };
+		D0552CFF1C36754E0056B4A4 /* bubble_enter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_enter.wav; sourceTree = "<group>"; };
+		D0552D011C36754E0056B4A4 /* G80-3000.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3000.wav"; sourceTree = "<group>"; };
+		D0552D021C36754E0056B4A4 /* G80-3000_fast1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3000_fast1.wav"; sourceTree = "<group>"; };
+		D0552D031C36754E0056B4A4 /* G80-3000_fast2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3000_fast2.wav"; sourceTree = "<group>"; };
+		D0552D041C36754E0056B4A4 /* G80-3000_slow1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3000_slow1.wav"; sourceTree = "<group>"; };
+		D0552D051C36754E0056B4A4 /* G80-3000_slow2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3000_slow2.wav"; sourceTree = "<group>"; };
+		D0552D071C36754E0056B4A4 /* G80-3494.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3494.wav"; sourceTree = "<group>"; };
+		D0552D081C36754E0056B4A4 /* G80-3494_backspace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3494_backspace.wav"; sourceTree = "<group>"; };
+		D0552D091C36754E0056B4A4 /* G80-3494_enter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3494_enter.wav"; sourceTree = "<group>"; };
+		D0552D0A1C36754E0056B4A4 /* G80-3494_fast1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3494_fast1.wav"; sourceTree = "<group>"; };
+		D0552D0B1C36754E0056B4A4 /* G80-3494_slow1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3494_slow1.wav"; sourceTree = "<group>"; };
+		D0552D0C1C36754E0056B4A4 /* G80-3494_space.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G80-3494_space.wav"; sourceTree = "<group>"; };
+		D0552D141C36754E0056B4A4 /* sword_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_1.wav; sourceTree = "<group>"; };
+		D0552D151C36754E0056B4A4 /* sword_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_2.wav; sourceTree = "<group>"; };
+		D0552D161C36754E0056B4A4 /* sword_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_3.wav; sourceTree = "<group>"; };
+		D0552D171C36754E0056B4A4 /* sword_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_4.wav; sourceTree = "<group>"; };
+		D0552D181C36754E0056B4A4 /* sword_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_5.wav; sourceTree = "<group>"; };
+		D0552D191C36754E0056B4A4 /* sword_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_6.wav; sourceTree = "<group>"; };
+		D0552D1A1C36754E0056B4A4 /* sword_back.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_back.wav; sourceTree = "<group>"; };
+		D0552D1B1C36754E0056B4A4 /* sword_enter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_enter.wav; sourceTree = "<group>"; };
+		D0552D1C1C36754E0056B4A4 /* sword_space.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sword_space.wav; sourceTree = "<group>"; };
+		D0552D3F1C367F760056B4A4 /* bubble_backspace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_backspace.wav; sourceTree = "<group>"; };
+		D0552D401C367F760056B4A4 /* bubble_scroll_down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_scroll_down.wav; sourceTree = "<group>"; };
+		D0552D411C367F760056B4A4 /* bubble_scroll_up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_scroll_up.wav; sourceTree = "<group>"; };
+		D0552D421C367F760056B4A4 /* bubble_space.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble_space.wav; sourceTree = "<group>"; };
+		D0552D471C367F860056B4A4 /* mechanical_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mechanical_1.wav; sourceTree = "<group>"; };
+		D0552D481C367F860056B4A4 /* mechanical_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mechanical_2.wav; sourceTree = "<group>"; };
+		D0552D491C367F860056B4A4 /* mechanical_backspace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mechanical_backspace.wav; sourceTree = "<group>"; };
+		D0552D4A1C367F860056B4A4 /* mechanical_enter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mechanical_enter.wav; sourceTree = "<group>"; };
+		D0552D4B1C367F860056B4A4 /* mechanical_space.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mechanical_space.wav; sourceTree = "<group>"; };
+		D0552D541C36C9680056B4A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PriterPoPViewController.xib; sourceTree = "<group>"; };
+		D0693CF41C37D46100F6788C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D0693CF61C37D46800F6788C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0693CF71C37DED900F6788C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0FEF43E1C62517600CDE1C6 /* drum-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drum-01.wav"; sourceTree = "<group>"; };
+		D0FEF43F1C62517600CDE1C6 /* drum-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drum-02.wav"; sourceTree = "<group>"; };
+		D0FEF4401C62517600CDE1C6 /* drum-03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drum-03.wav"; sourceTree = "<group>"; };
+		D0FEF4411C62517600CDE1C6 /* drum-04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drum-04.wav"; sourceTree = "<group>"; };
+		D0FEF4421C62517600CDE1C6 /* drum-backspace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drum-backspace.wav"; sourceTree = "<group>"; };
+		D0FEF4431C62517600CDE1C6 /* drum-enter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drum-enter.wav"; sourceTree = "<group>"; };
+		D0FEF4441C62517600CDE1C6 /* drum-space.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drum-space.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0456AD21C284D3F00C9997C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0456B611C2EE06300C9997C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0456ACC1C284D3F00C9997C = {
+			isa = PBXGroup;
+			children = (
+				D0456B601C2EE06300C9997C /* QuartzCore.framework */,
+				D0456AD71C284D3F00C9997C /* Priter */,
+				D0456AD61C284D3F00C9997C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0456AD61C284D3F00C9997C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0456AD51C284D3F00C9997C /* Priter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0456AD71C284D3F00C9997C /* Priter */ = {
+			isa = PBXGroup;
+			children = (
+				D0456B5A1C2ED94300C9997C /* wiget */,
+				D0456B541C2C537600C9997C /* Defaults */,
+				D0456B501C2C1DE500C9997C /* Utils */,
+				D0456B1E1C29AD1900C9997C /* Resource */,
+				D0456B0D1C285F0500C9997C /* PoPView */,
+				D0456AD81C284D3F00C9997C /* PriterAppDelegate.h */,
+				D0456AD91C284D3F00C9997C /* PriterAppDelegate.m */,
+				D0456ADE1C284D3F00C9997C /* PriterViewController.h */,
+				D0456ADF1C284D3F00C9997C /* PriterViewController.m */,
+				D0456AE11C284D3F00C9997C /* Assets.xcassets */,
+				D0456AE31C284D3F00C9997C /* Main.storyboard */,
+				D0456AE61C284D3F00C9997C /* Info.plist */,
+				D0456ADB1C284D3F00C9997C /* Supporting Files */,
+			);
+			path = Priter;
+			sourceTree = "<group>";
+		};
+		D0456ADB1C284D3F00C9997C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0456ADC1C284D3F00C9997C /* main.m */,
+				D0693CF51C37D46100F6788C /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0456B0D1C285F0500C9997C /* PoPView */ = {
+			isa = PBXGroup;
+			children = (
+				D0456B0E1C285F1700C9997C /* PriterRHStatusItemView.h */,
+				D0456B0F1C285F1700C9997C /* PriterRHStatusItemView.m */,
+				D0456B111C28607C00C9997C /* PriterPopOverViewDelagate.h */,
+				D0456B121C28607C00C9997C /* PriterPopOverViewDelagate.m */,
+				D0456B191C28627F00C9997C /* PriterPoPViewController.h */,
+				D0456B1A1C28627F00C9997C /* PriterPoPViewController.m */,
+				D0456B491C2AF9A900C9997C /* PriterPoPViewController.xib */,
+			);
+			path = PoPView;
+			sourceTree = "<group>";
+		};
+		D0456B1E1C29AD1900C9997C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0FEF42F1C624DD900CDE1C6 /* Sound-7 */,
+				D0456B221C29AD1900C9997C /* Sound-1 */,
+				D0552CF61C36754E0056B4A4 /* Sound-2 */,
+				D0552D001C36754E0056B4A4 /* Sound-3 */,
+				D0552D061C36754E0056B4A4 /* Sound-4 */,
+				D0552D0D1C36754E0056B4A4 /* Sound-5 */,
+				D0552D131C36754E0056B4A4 /* Sound-6 */,
+				D0456B1F1C29AD1900C9997C /* images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D0456B1F1C29AD1900C9997C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D0456B5E1C2EDBDE00C9997C /* app_icon.png */,
+				D0456B581C2D642E00C9997C /* shutdown_light.png */,
+				D0456B451C2AF35F00C9997C /* shutdown.png */,
+				D0456B201C29AD1900C9997C /* priter_dark_icon.png */,
+				D0456B211C29AD1900C9997C /* priter_light_icon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D0456B221C29AD1900C9997C /* Sound-1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0456B231C29AD1900C9997C /* backspace.mp3 */,
+				D0456B241C29AD1900C9997C /* key-01.mp3 */,
+				D0456B251C29AD1900C9997C /* key-02.mp3 */,
+				D0456B261C29AD1900C9997C /* key-03.mp3 */,
+				D0456B271C29AD1900C9997C /* key-04.mp3 */,
+				D0456B281C29AD1900C9997C /* key-new-01.mp3 */,
+				D0456B291C29AD1900C9997C /* key-new-02.mp3 */,
+				D0456B2A1C29AD1900C9997C /* key-new-03.mp3 */,
+				D0456B2B1C29AD1900C9997C /* key-new-04.mp3 */,
+				D0456B2C1C29AD1900C9997C /* key-new-05.mp3 */,
+				D0456B2D1C29AD1900C9997C /* return-new.mp3 */,
+				D0456B2E1C29AD1900C9997C /* return.mp3 */,
+				D0456B2F1C29AD1900C9997C /* scrollDown.mp3 */,
+				D0456B301C29AD1900C9997C /* scrollUp.mp3 */,
+				D0456B311C29AD1900C9997C /* space-new.mp3 */,
+				D0456B321C29AD1900C9997C /* space.mp3 */,
+			);
+			path = "Sound-1";
+			sourceTree = "<group>";
+		};
+		D0456B501C2C1DE500C9997C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D0456B511C2C1E0C00C9997C /* PriterUtils.h */,
+				D0456B521C2C1E0C00C9997C /* PriterUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D0456B541C2C537600C9997C /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				D0456B551C2C53C200C9997C /* PriterUserDefaults.h */,
+				D0456B561C2C53C200C9997C /* PriterUserDefaults.m */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		D0456B5A1C2ED94300C9997C /* wiget */ = {
+			isa = PBXGroup;
+			children = (
+				D0456B5B1C2ED96600C9997C /* PriterLogoView.h */,
+				D0456B5C1C2ED96600C9997C /* PriterLogoView.m */,
+			);
+			path = wiget;
+			sourceTree = "<group>";
+		};
+		D0552CF61C36754E0056B4A4 /* Sound-2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0552D3F1C367F760056B4A4 /* bubble_backspace.wav */,
+				D0552D401C367F760056B4A4 /* bubble_scroll_down.wav */,
+				D0552D411C367F760056B4A4 /* bubble_scroll_up.wav */,
+				D0552D421C367F760056B4A4 /* bubble_space.wav */,
+				D0552CF71C36754E0056B4A4 /* bubble_1.wav */,
+				D0552CF81C36754E0056B4A4 /* bubble_2.wav */,
+				D0552CF91C36754E0056B4A4 /* bubble_3.wav */,
+				D0552CFA1C36754E0056B4A4 /* bubble_4.wav */,
+				D0552CFF1C36754E0056B4A4 /* bubble_enter.wav */,
+			);
+			path = "Sound-2";
+			sourceTree = "<group>";
+		};
+		D0552D001C36754E0056B4A4 /* Sound-3 */ = {
+			isa = PBXGroup;
+			children = (
+				D0552D011C36754E0056B4A4 /* G80-3000.wav */,
+				D0552D021C36754E0056B4A4 /* G80-3000_fast1.wav */,
+				D0552D031C36754E0056B4A4 /* G80-3000_fast2.wav */,
+				D0552D041C36754E0056B4A4 /* G80-3000_slow1.wav */,
+				D0552D051C36754E0056B4A4 /* G80-3000_slow2.wav */,
+			);
+			path = "Sound-3";
+			sourceTree = "<group>";
+		};
+		D0552D061C36754E0056B4A4 /* Sound-4 */ = {
+			isa = PBXGroup;
+			children = (
+				D0552D071C36754E0056B4A4 /* G80-3494.wav */,
+				D0552D081C36754E0056B4A4 /* G80-3494_backspace.wav */,
+				D0552D091C36754E0056B4A4 /* G80-3494_enter.wav */,
+				D0552D0A1C36754E0056B4A4 /* G80-3494_fast1.wav */,
+				D0552D0B1C36754E0056B4A4 /* G80-3494_slow1.wav */,
+				D0552D0C1C36754E0056B4A4 /* G80-3494_space.wav */,
+			);
+			path = "Sound-4";
+			sourceTree = "<group>";
+		};
+		D0552D0D1C36754E0056B4A4 /* Sound-5 */ = {
+			isa = PBXGroup;
+			children = (
+				D0552D471C367F860056B4A4 /* mechanical_1.wav */,
+				D0552D481C367F860056B4A4 /* mechanical_2.wav */,
+				D0552D491C367F860056B4A4 /* mechanical_backspace.wav */,
+				D0552D4A1C367F860056B4A4 /* mechanical_enter.wav */,
+				D0552D4B1C367F860056B4A4 /* mechanical_space.wav */,
+			);
+			path = "Sound-5";
+			sourceTree = "<group>";
+		};
+		D0552D131C36754E0056B4A4 /* Sound-6 */ = {
+			isa = PBXGroup;
+			children = (
+				D0552D141C36754E0056B4A4 /* sword_1.wav */,
+				D0552D151C36754E0056B4A4 /* sword_2.wav */,
+				D0552D161C36754E0056B4A4 /* sword_3.wav */,
+				D0552D171C36754E0056B4A4 /* sword_4.wav */,
+				D0552D181C36754E0056B4A4 /* sword_5.wav */,
+				D0552D191C36754E0056B4A4 /* sword_6.wav */,
+				D0552D1A1C36754E0056B4A4 /* sword_back.wav */,
+				D0552D1B1C36754E0056B4A4 /* sword_enter.wav */,
+				D0552D1C1C36754E0056B4A4 /* sword_space.wav */,
+			);
+			path = "Sound-6";
+			sourceTree = "<group>";
+		};
+		D0FEF42F1C624DD900CDE1C6 /* Sound-7 */ = {
+			isa = PBXGroup;
+			children = (
+				D0FEF43E1C62517600CDE1C6 /* drum-01.wav */,
+				D0FEF43F1C62517600CDE1C6 /* drum-02.wav */,
+				D0FEF4401C62517600CDE1C6 /* drum-03.wav */,
+				D0FEF4411C62517600CDE1C6 /* drum-04.wav */,
+				D0FEF4421C62517600CDE1C6 /* drum-backspace.wav */,
+				D0FEF4431C62517600CDE1C6 /* drum-enter.wav */,
+				D0FEF4441C62517600CDE1C6 /* drum-space.wav */,
+			);
+			path = "Sound-7";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0456AD41C284D3F00C9997C /* Priter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0456AE91C284D3F00C9997C /* Build configuration list for PBXNativeTarget "Priter" */;
+			buildPhases = (
+				D0456AD11C284D3F00C9997C /* Sources */,
+				D0456AD21C284D3F00C9997C /* Frameworks */,
+				D0456AD31C284D3F00C9997C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Priter;
+			productName = Priter;
+			productReference = D0456AD51C284D3F00C9997C /* Priter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0456ACD1C284D3F00C9997C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = peter;
+				TargetAttributes = {
+					D0456AD41C284D3F00C9997C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S3RXM64H74;
+					};
+				};
+			};
+			buildConfigurationList = D0456AD01C284D3F00C9997C /* Build configuration list for PBXProject "Priter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0456ACC1C284D3F00C9997C;
+			productRefGroup = D0456AD61C284D3F00C9997C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0456AD41C284D3F00C9997C /* Priter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0456AD31C284D3F00C9997C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0456B5F1C2EDBDE00C9997C /* app_icon.png in Resources */,
+				D0FEF4471C62517600CDE1C6 /* drum-03.wav in Resources */,
+				D0456B401C29AD1900C9997C /* return.mp3 in Resources */,
+				D0456B461C2AF35F00C9997C /* shutdown.png in Resources */,
+				D0552D2B1C36754F0056B4A4 /* G80-3494.wav in Resources */,
+				D0456B341C29AD1900C9997C /* priter_light_icon.png in Resources */,
+				D0552D301C36754F0056B4A4 /* G80-3494_space.wav in Resources */,
+				D0456B3F1C29AD1900C9997C /* return-new.mp3 in Resources */,
+				D0552D2E1C36754F0056B4A4 /* G80-3494_fast1.wav in Resources */,
+				D0456B441C29AD1900C9997C /* space.mp3 in Resources */,
+				D0456B591C2D642E00C9997C /* shutdown_light.png in Resources */,
+				D0552D391C36754F0056B4A4 /* sword_4.wav in Resources */,
+				D0552D201C36754E0056B4A4 /* bubble_4.wav in Resources */,
+				D0552D261C36754F0056B4A4 /* G80-3000.wav in Resources */,
+				D0FEF4451C62517600CDE1C6 /* drum-01.wav in Resources */,
+				D0FEF44A1C62517600CDE1C6 /* drum-enter.wav in Resources */,
+				D0456B361C29AD1900C9997C /* key-01.mp3 in Resources */,
+				D0FEF4491C62517600CDE1C6 /* drum-backspace.wav in Resources */,
+				D0456B421C29AD1900C9997C /* scrollUp.mp3 in Resources */,
+				D0552D4C1C367F860056B4A4 /* mechanical_1.wav in Resources */,
+				D0552D281C36754F0056B4A4 /* G80-3000_fast2.wav in Resources */,
+				D0552D3D1C36754F0056B4A4 /* sword_enter.wav in Resources */,
+				D0552D361C36754F0056B4A4 /* sword_1.wav in Resources */,
+				D0456B3D1C29AD1900C9997C /* key-new-04.mp3 in Resources */,
+				D0552D1D1C36754E0056B4A4 /* bubble_1.wav in Resources */,
+				D0456B351C29AD1900C9997C /* backspace.mp3 in Resources */,
+				D0456B371C29AD1900C9997C /* key-02.mp3 in Resources */,
+				D0552D2A1C36754F0056B4A4 /* G80-3000_slow2.wav in Resources */,
+				D0552D2F1C36754F0056B4A4 /* G80-3494_slow1.wav in Resources */,
+				D0552D1E1C36754E0056B4A4 /* bubble_2.wav in Resources */,
+				D0693CF31C37D46100F6788C /* Localizable.strings in Resources */,
+				D0552D4D1C367F860056B4A4 /* mechanical_2.wav in Resources */,
+				D0456B3A1C29AD1900C9997C /* key-new-01.mp3 in Resources */,
+				D0552D371C36754F0056B4A4 /* sword_2.wav in Resources */,
+				D0456B331C29AD1900C9997C /* priter_dark_icon.png in Resources */,
+				D0552D3A1C36754F0056B4A4 /* sword_5.wav in Resources */,
+				D0552D3C1C36754F0056B4A4 /* sword_back.wav in Resources */,
+				D0FEF4461C62517600CDE1C6 /* drum-02.wav in Resources */,
+				D0456B3E1C29AD1900C9997C /* key-new-05.mp3 in Resources */,
+				D0552D251C36754F0056B4A4 /* bubble_enter.wav in Resources */,
+				D0456B471C2AF9A900C9997C /* PriterPoPViewController.xib in Resources */,
+				D0552D431C367F760056B4A4 /* bubble_backspace.wav in Resources */,
+				D0552D271C36754F0056B4A4 /* G80-3000_fast1.wav in Resources */,
+				D0552D3E1C36754F0056B4A4 /* sword_space.wav in Resources */,
+				D0456B391C29AD1900C9997C /* key-04.mp3 in Resources */,
+				D0456AE21C284D3F00C9997C /* Assets.xcassets in Resources */,
+				D0552D2C1C36754F0056B4A4 /* G80-3494_backspace.wav in Resources */,
+				D0552D441C367F760056B4A4 /* bubble_scroll_down.wav in Resources */,
+				D0552D501C367F860056B4A4 /* mechanical_space.wav in Resources */,
+				D0552D381C36754F0056B4A4 /* sword_3.wav in Resources */,
+				D0552D4F1C367F860056B4A4 /* mechanical_enter.wav in Resources */,
+				D0552D3B1C36754F0056B4A4 /* sword_6.wav in Resources */,
+				D0552D451C367F760056B4A4 /* bubble_scroll_up.wav in Resources */,
+				D0456AE51C284D3F00C9997C /* Main.storyboard in Resources */,
+				D0456B431C29AD1900C9997C /* space-new.mp3 in Resources */,
+				D0552D1F1C36754E0056B4A4 /* bubble_3.wav in Resources */,
+				D0552D291C36754F0056B4A4 /* G80-3000_slow1.wav in Resources */,
+				D0552D461C367F760056B4A4 /* bubble_space.wav in Resources */,
+				D0456B381C29AD1900C9997C /* key-03.mp3 in Resources */,
+				D0456B3C1C29AD1900C9997C /* key-new-03.mp3 in Resources */,
+				D0552D2D1C36754F0056B4A4 /* G80-3494_enter.wav in Resources */,
+				D0552D4E1C367F860056B4A4 /* mechanical_backspace.wav in Resources */,
+				D0456B3B1C29AD1900C9997C /* key-new-02.mp3 in Resources */,
+				D0FEF4481C62517600CDE1C6 /* drum-04.wav in Resources */,
+				D0456B411C29AD1900C9997C /* scrollDown.mp3 in Resources */,
+				D0FEF44B1C62517600CDE1C6 /* drum-space.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0456AD11C284D3F00C9997C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0456B5D1C2ED96600C9997C /* PriterLogoView.m in Sources */,
+				D0456AE01C284D3F00C9997C /* PriterViewController.m in Sources */,
+				D0456B571C2C53C200C9997C /* PriterUserDefaults.m in Sources */,
+				D0456B531C2C1E0C00C9997C /* PriterUtils.m in Sources */,
+				D0456ADD1C284D3F00C9997C /* main.m in Sources */,
+				D0456B101C285F1700C9997C /* PriterRHStatusItemView.m in Sources */,
+				D0456ADA1C284D3F00C9997C /* PriterAppDelegate.m in Sources */,
+				D0456B1C1C28627F00C9997C /* PriterPoPViewController.m in Sources */,
+				D0456B131C28607C00C9997C /* PriterPopOverViewDelagate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0456AE31C284D3F00C9997C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0456AE41C284D3F00C9997C /* Base */,
+				D0456B4E1C2AFB4300C9997C /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0456B491C2AF9A900C9997C /* PriterPoPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0456B4F1C2AFB6800C9997C /* zh-Hans */,
+				D0552D541C36C9680056B4A4 /* en */,
+			);
+			name = PriterPoPViewController.xib;
+			sourceTree = "<group>";
+		};
+		D0693CF51C37D46100F6788C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0693CF41C37D46100F6788C /* zh-Hans */,
+				D0693CF61C37D46800F6788C /* en */,
+				D0693CF71C37DED900F6788C /* Base */,
+			);
+			name = Localizable.strings;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0456AE71C284D3F00C9997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0456AE81C284D3F00C9997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0456AEA1C284D3F00C9997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Priter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivo.Priter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D0456AEB1C284D3F00C9997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Priter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivo.Priter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0456AD01C284D3F00C9997C /* Build configuration list for PBXProject "Priter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0456AE71C284D3F00C9997C /* Debug */,
+				D0456AE81C284D3F00C9997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0456AE91C284D3F00C9997C /* Build configuration list for PBXNativeTarget "Priter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0456AEA1C284D3F00C9997C /* Debug */,
+				D0456AEB1C284D3F00C9997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0456ACD1C284D3F00C9997C /* Project object */;
+}
